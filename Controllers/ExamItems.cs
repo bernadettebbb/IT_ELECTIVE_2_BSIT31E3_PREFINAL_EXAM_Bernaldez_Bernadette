@@ -16,6 +16,7 @@ namespace PREFINAL_EXAM.Controllers
                 new ExamItem { Id = 5, Question = "What does the command 'dotnet ef dbcontext scaffold' primarily do?", Answer = "C. Generates EF Core models and a DbContext from an existing database" },
                 new ExamItem { Id = 6, Question = "Where is a database connection string commonly stored in an ASP.NET Core MVC application?", Anr swe= "B. appsettings.json" },
                 new ExamItem { Id = 7, Question = "A Student belongs to exactly one Section, while a Section can contain many students. What type of relationship is this?", Answer = "B. One-to-Many" },
+                new ExamItem { Id = 8, Question = "In 'public int SectionId { get; set; }', what is SectionId?", Answer = "B. Foreign key referencing Section" },
 
             };
 
