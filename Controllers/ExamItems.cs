@@ -26,6 +26,8 @@ namespace PREFINAL_EXAM.Controllers
                 new ExamItem { Id = 15, Question = "A school requires every student to have a unique Student Number. Which rule best represents this requirement?", Answer = "B. Student Number should be unique" },
                 new ExamItem { Id = 16, Question = "Which is the best reason for having a database-level unique constraint on StudentNumber?", Answer = "A. It protects data integrity even if application-level validation is bypassed" },
                 new ExamItem { Id = 17, Question = "What is the purpose of a try...catch block in a controller?", Answer = "B. To catch and handle exceptions that may occur during execution" },
+                new ExamItem { Id = 18, Question = "Which middleware is commonly used in ASP.NET Core for centralized exception handling?", Answer = "B. UseExceptionHandler()" },
+                new ExamItem { Id = 19, Question = "A user requests /Student/999, but Student 999 does not exist. What would be the most appropriate response?", Answer = "B. Display a Not Found (404) response/page" },
 
 
             };
