@@ -17,6 +17,8 @@ namespace PREFINAL_EXAM.Controllers
                 new ExamItem { Id = 6, Question = "Where is a database connection string commonly stored in an ASP.NET Core MVC application?", Anr swe= "B. appsettings.json" },
                 new ExamItem { Id = 7, Question = "A Student belongs to exactly one Section, while a Section can contain many students. What type of relationship is this?", Answer = "B. One-to-Many" },
                 new ExamItem { Id = 8, Question = "In 'public int SectionId { get; set; }', what is SectionId?", Answer = "B. Foreign key referencing Section" },
+                new ExamItem { Id = 9, Question = "What is the purpose of a navigation property such as 'public Section Section { get; set; }'?", Answer = "B. It represents a relationship to another entity" },
+                new ExamItem { Id = 10, Question = "What does .Include() generally allow EF Core to do?", Answer = "B. Load related Section data together with Students" },
 
             };
 
