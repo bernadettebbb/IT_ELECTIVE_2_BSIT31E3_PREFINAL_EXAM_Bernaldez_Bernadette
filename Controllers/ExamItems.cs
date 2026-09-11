@@ -19,6 +19,7 @@ namespace PREFINAL_EXAM.Controllers
                 new ExamItem { Id = 8, Question = "In 'public int SectionId { get; set; }', what is SectionId?", Answer = "B. Foreign key referencing Section" },
                 new ExamItem { Id = 9, Question = "What is the purpose of a navigation property such as 'public Section Section { get; set; }'?", Answer = "B. It represents a relationship to another entity" },
                 new ExamItem { Id = 10, Question = "What does .Include() generally allow EF Core to do?", Answer = "B. Load related Section data together with Students" },
+                new ExamItem { Id = 11, Question = "Why might a ViewModel be used when displaying Student and Section information?", Answer = "B. To combine or shape the data specifically needed by the view" },
 
             };
 
