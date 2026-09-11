@@ -14,6 +14,7 @@ namespace PREFINAL_EXAM.Controllers
                 new ExamItem { Id = 3, Question = "What is the primary purpose of Entity Framework Core?", Answer = "C. To map objects in code to relational database data" },
                 new ExamItem { Id = 4, Question = "Which EF Core component is primarily responsible for communicating with the database?", Answer = "A. DbContext" },
                 new ExamItem { Id = 5, Question = "What does the command 'dotnet ef dbcontext scaffold' primarily do?", Answer = "C. Generates EF Core models and a DbContext from an existing database" },
+                new ExamItem { Id = 6, Question = "Where is a database connection string commonly stored in an ASP.NET Core MVC application?", Anr swe= "B. appsettings.json" },
 
 
             };
