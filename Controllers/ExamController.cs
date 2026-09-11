@@ -31,7 +31,7 @@ namespace PREFINAL_EXAM.Controllers
                 new ExamItem { Id = 20, Question = "A student already belongs to Section A for a particular subject. The application attempts to assign the same student to Section A again. What is the primary concern?", Answer = "A. Data integrity" }
             };
 
-            return View(questions);
+            return View("~/Views/Home/Index.cshtml", questions);
         }
     }
 }
